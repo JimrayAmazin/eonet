@@ -1,0 +1,46 @@
+html,
+body {
+    height: 100%;
+}
+html {
+    display: table;
+    margin: auto;
+}
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+.margin {
+  margin: 0 !important;
+}
+.errorTxt2 {
+  color: red;
+  margin-left: 8%
+}
+.errorTxt3 {
+  color: red;
+  margin-left: 8%
+}
+.login-form {
+  width: 541px;
+}
+@media (max-width: 320px){
+  .login-form {
+    width: 291px;
+  }
+}
+@media only screen and (min-width : 360px) {
+  .login-form {
+    width: 326px;
+  }
+}
+@media (min-width: 411px) {
+  .login-form {
+    width: 373px;
+  }
+}
+@media only screen and (min-width : 732px) {
+  .login-form {
+    width: 600px;
+  }
+}

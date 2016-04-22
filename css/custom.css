@@ -1,0 +1,30 @@
+@media (max-width: 320px){
+
+}
+@media (min-width: 360px){
+
+}
+@media (min-width: 411px) {
+
+}
+@media (min-width: 768px) {
+
+}
+
+.logo-text {
+  margin: 0px 0px 0px 78px;
+}
+.btn-styled {
+  border-radius: 18px 10px 18px 10px;
+}
+.time {
+    color: #8c8c8c;
+    margin: 13px 0px 0px 80%;
+}
+p.big {
+    line-height: 1.8;
+}
+.news-container {
+    padding:0px 18px 0px 24px;
+}
+ol.number-bullet {list-style-type: decimal;}
