@@ -48,7 +48,7 @@
         <div class="card-panel white news-container">
           <div class="row">
             <div class="col s12 l5">
-              <h5><a href="#" class="truncate"> Title Name s,mnaks dlksjdlkasjd salkdjlkasjd alskjd </a></h5>
+              <h5><a href="article.php" class="truncate"> Title Name s,mnaks dlksjdlkasjd salkdjlkasjd alskjd </a></h5>
               <p class="time">August 8, 1440</p>
             </div>
             <div class="col l7">
@@ -62,7 +62,7 @@
         <div class="card-panel white news-container">
           <div class="row">
             <div class="col s12 l5">
-              <h5><a href="#" class="truncate"> Title Name </a></h5>
+              <h5><a href="article.php" class="truncate"> Title Name </a></h5>
               <p class="time">August 8, 1440</p>
             </div>
             <div class="col l7">
