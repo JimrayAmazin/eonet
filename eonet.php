@@ -6,23 +6,16 @@
   <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
-        <img src="images/nasa_logo.png" class="brand-logo left hide-on-small-only">
+        <img src="images/nasa_logo.png" class="brand-logo left">
         <a href="#" class="logo-text"><b>EO</b>NET</a>
-        <a href="#" data-activates="side-menu" class="button-collapse hide-on-med-only"><i class="material-icons">menu</i></a>
+        <a href="#" data-activates="side-menu" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right">
           <li><a href="#">Home</a></li>
           <li><a href="eonet.php">About Eonet</a></li>
-          <li class="hide-on-small-only"><a href="#">About Us</a></li>
+          <li><a href="#">About Us</a></li>
         </ul>
         <ul class="side-nav" id="side-menu">
-          <li><a href="#" class="center-align"><b>CATEGORIES</b></a></li>
-          <li><a href="categories.php">Dust and Haze</a></li>
-          <li><a href="#!">Floods</a></li>
-          <li><a href="#!">Sea and Lake Ice</a></li>
-          <li><a href="#!">Severe Storms</a></li>
-          <li><a href="#!">Volcanoes</a></li>
-          <li><a href="#!">Water Color</a></li>
-          <li><a href="#!">Wild Fires</a></li>
+          <li><a href="#"><b>Mamaya</b></a></li>
         </ul>
       </div>
     </nav>

@@ -2,6 +2,16 @@
 <?php
   include('includes/home-header.php');
 ?>
+<style media="screen">
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#map {
+  height: 100%;
+}
+</style>
 <body>
   <div class="navbar-fixed">
     <nav>
@@ -14,52 +24,50 @@
           <li><a href="eonet.php">About Eonet</a></li>
           <li class="hide-on-small-only"><a href="#">About Us</a></li>
         </ul>
-        <ul class="side-nav" id="side-menu">
-          <li><a href="#" class="center-align"><b>CATEGORIES</b></a></li>
-          <li><a href="categories.php">Dust and Haze</a></li>
-          <li><a href="#!">Floods</a></li>
-          <li><a href="#!">Sea and Lake Ice</a></li>
-          <li><a href="#!">Severe Storms</a></li>
-          <li><a href="#!">Volcanoes</a></li>
-          <li><a href="#!">Water Color</a></li>
-          <li><a href="#!">Wild Fires</a></li>
-        </ul>
+
       </div>
     </nav>
   </div>
   <div class="row">
     <div class="col m3 l3 hide-on-small-only">
       <div class="collection with-header">
-        <div class="collection-header">
+        <div class="collection-header" id="categories">
           <h5>Categories: </h5>
         </div>
-        <a href="categories.php" class="collection-item active">Dust and Haze</a>
-        <a href="#!" class="collection-item">Floods</a>
-        <a href="#!" class="collection-item">Sea and Lake Ice</a>
-        <a href="#!" class="collection-item">Severe Storms</a>
-        <a href="#!" class="collection-item">Volcanoes</a>
-        <a href="#!" class="collection-item">Water Color</a>
-        <a href="#!" class="collection-item">Wild Fires</a>
+
       </div>
     </div>
     <div class="col s12 m9 l9">
-        <div class="card-panel white news-container">
-          <div class="row">
+        <div class="card-panel white news-container" >
+          <div class="row" id="full">
             <div class="col s12 m12 l5">
-              <h5> Title Name s,mnaks dlksjdlkasjd salkdjlkasjd alskjd </h5>
-              <p class="time">Dust and Haze &middot August 8, 1440</p>
+              <h5 id="titles"></h5>
+              <p id="date"></p>
             </div>
             <div class="col l7">
-              <p class="time hide"> August 8, 1996 </p>
             </div>
             <div class="col s12 m12 l12">
-              <p class="big">The Rocky Mountain Fire in the Shenandoah National Park has resulted in the closure of many sections of the Appalachian Trail and several other trails in the park.</p>
-              <img class="col s12 m12" src="images/map-sample.png">
+              <p class="big" id="description"></p>
+              <div id="map"></div>
             </div>
           </div>
         </div>
     </div>
   </div>
   <?php include('includes/scripts.php'); ?>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3dfJUXO8cA8Hfi69sX8o6RciG13N7pnc&callback=initMap"  async defer></script>
+  <script type="text/javascript">
+  var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -34.397, lng: 150.644},
+      zoom: 8
+    });
+  }
+  </script>
+  <script src="js/gmaps.js"></script>
+  <script src="js/ajax/ajax_getEvent.js"></script>
+
 </body>
 </html>

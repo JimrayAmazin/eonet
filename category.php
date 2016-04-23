@@ -28,7 +28,7 @@
         </div>
       </div>
     </div>
-    <div class="col s12 m9 l9" id="head-container-index">
+    <div class="col s12 m9 l9" id="head-container-category">
       <b class="hide-on-med-and-up">Latest News</b>
       <h5 class="hide-on-small-only">Latest News</h5>
     </div>

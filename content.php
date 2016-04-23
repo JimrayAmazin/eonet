@@ -34,6 +34,6 @@
     </div>
   </div>
   <?php include('includes/scripts.php'); ?>
-  <script src="js/ajax/ajax_getEvent.js"></script>
+  <script src="js/ajax/ajax_content.js"></script>
 </body>
 </html>
